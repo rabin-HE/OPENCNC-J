@@ -1,0 +1,1 @@
+pin+cia402.3.drv-actual-position pin+cia402.3.drv-actual-velocity pin+spindle.0.at-speed pin+spindle.0.brake pin+spindle.0.forward pin+spindle.0.speed-cmd-rps pin+spindle.0.speed-in pin+spindle.0.speed-out-abs pin+cia402.3.drv-target-velocity pin+cia402.3.drv-target-position
