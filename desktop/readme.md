@@ -1,4 +1,4 @@
-# 🛠️ GEEKCNC
+# 🛠️ OPENCNC-J-DESKTOP
 
 ⚡ Desktop Application for LinuxCNC. ⚡
 
@@ -34,10 +34,6 @@ Build the installation package for the application using the following command s
 ```[readme.md](readme.md)
 wails build -webview2 embed -nsis
 ```
-
-## 🌞 Development Team
-
-> https://www.geekros.com
 
 
 
