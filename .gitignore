@@ -1,0 +1,9 @@
+.idea
+.DS*
+.git
+.vscode
+yarn.lock
+node_modules
+desktop/template/dist
+desktop/release/bin
+desktop/release/windows

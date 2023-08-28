@@ -1,0 +1,328 @@
+@charset "UTF-8";
+
+.el-overlay, .el-overlay-dialog{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.el-overlay.allow{
+    pointer-events:none !important;
+}
+.el-overlay.allow .el-dialog{
+    pointer-events:auto !important;
+}
+
+.el-empty.cnc{
+    height: 100%;
+    padding: 10px;
+}
+.el-empty.cnc .el-empty__description{
+    margin-top: 10px;
+}
+.el-empty.cnc .el-empty__description p{
+    font-size: 12px;
+    color: #666666;
+}
+
+.el-row.cnc .el-col{
+    margin-bottom: 20px;
+}
+
+.el-text.cnc{
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    display: block;
+}
+.el-text.cnc .el-icon{
+    vertical-align: -1px;
+}
+.el-text.cnc span{
+    margin-left: 5px;
+}
+
+.el-dialog.cnc{
+    background-color: rgba(43, 45, 48, 1);
+    border: 1px solid rgba(59, 60, 61, 1);
+    border-radius: 4px;
+}
+.el-dialog.cnc .el-dialog__header{
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    border-bottom: 1px solid rgba(59, 60, 61, 1);
+}
+.el-dialog.cnc .el-dialog__header:before{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content:" ";
+    background: url("../image/logo.png") no-repeat center center;
+    background-size: 50%;
+}
+.el-dialog.cnc .el-dialog__header .el-dialog__title{
+    width: auto;
+    height: 40px;
+    line-height: 39px;
+    color: #ffffff;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.el-dialog.cnc .el-dialog__header .el-dialog__headerbtn{
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    top: 0;
+}
+.el-dialog.cnc .el-dialog__body{
+    width: 100%;
+    padding: 0;
+}
+
+.el-form.cnc .el-form-item__label{
+    font-size: 12px;
+    line-height: 38px;
+    color: #666666;
+}
+.el-form.cnc .el-form-item:last-child{
+    margin-bottom: 10px;
+}
+.el-form.cnc .el-form-item__content .el-form-tips{
+    width: 100%;
+    font-size: 12px;
+    line-height: 22px;
+    color: #999999;
+}
+.el-form.cnc .el-form-item__content{
+    min-height: 38px;
+}
+.el-form.cnc .el-form-item__content .el-form-tips.first{
+    margin-top: 5px;
+}
+.el-form.cnc .el-form-item__content .el-form-tips span.font{
+    padding: 0 5px;
+    user-select: text;
+}
+.el-form.cnc .tips{
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #999999;
+}
+.el-form.cnc .tips span{
+    color: #5e4eff;
+    padding: 0 10px;
+}
+.el-form.cnc .tips span:hover{
+    cursor: pointer;
+}
+
+.el-select.cnc{
+    width: auto;
+    border: 0;
+}
+.el-select.cnc .el-input__wrapper{
+    height: 32px !important;
+    background-color: rgba(0, 0, 0, .2);
+    box-shadow: none;
+    border: 0;
+}
+.el-select.cnc .el-input__wrapper .el-input__inner{
+    font-size: 12px;
+}
+.el-select.cnc .el-input.is-focus .el-input__wrapper{
+    box-shadow: none;
+}
+.el-select.cnc .el-input .el-input__wrapper.is-focus {
+    box-shadow: none;
+}
+.el-select.cnc .el-input__inner{
+    color: #ffffff;
+}
+.el-select.cnc .el-input__inner::selection{
+    background-color: rgba(57, 59, 64, 0);
+}
+
+.el-input.cnc{
+    height: 38px;
+}
+.el-input.cnc .el-input__wrapper{
+    height: 38px;
+    background-color: rgba(30, 31, 34, 1);
+    box-shadow: none;
+    padding: 0 10px;
+    border: 1px solid rgba(59, 60, 61, .9);
+}
+.el-input.cnc .el-input__inner{
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+}
+.el-input.cnc .el-input__inner::placeholder{
+    color: #666666;
+    font-size: 12px;
+}
+.el-input.cnc .el-input-group__prepend{
+    height: 36px;
+    background-color: rgba(30, 31, 34, 1);
+    border: 1px solid rgba(59, 60, 61, .9);
+    box-shadow: none;
+    padding: 0 10px;
+    border-right: 0;
+}
+.el-input.cnc .el-input-group__prepend span{
+    font-size: 12px;
+}
+.el-input.cnc .el-input-group__append{
+    height: 36px;
+    background-color: rgba(30, 31, 34, 1);
+    border: 1px solid rgba(59, 60, 61, .9);
+    box-shadow: none;
+    padding: 0 10px;
+    border-left: 0;
+}
+.el-input.cnc .el-input-group__append span{
+    font-size: 12px;
+}
+.el-input.cnc .el-input-group__append span:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.el-input.cnc .el-input__count .el-input__count-inner{
+    background-color: rgba(0, 0, 0, 0);
+}
+.el-input.cnc .el-input-group__append .el-icon{
+    height: 36px;
+    font-size: 14px;
+}
+.el-input.cnc .el-input-group__append .el-icon:hover{
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.el-button.cnc{
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.el-message.cnc{
+    background-color: rgba(57, 59, 64, 1);
+    border: 0;
+    font-size: 12px;
+    padding: 8px 15px;
+}
+.el-message.cnc .el-message__icon{
+    width: 20px;
+    height: 20px;
+    line-height: 24px;
+    margin-right: 2px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+}
+.el-message.cnc .el-message__content{
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.el-message-box.cnc{
+    max-width: 350px !important;
+    background-color: rgba(43, 45, 48, 1) !important;
+    border: 1px solid rgba(59, 60, 61, 1) !important;
+    border-radius: 4px;
+}
+.el-message-box.cnc .el-message-box__header{
+    width: 100% !important;
+    height: 40px !important;
+    padding: 0 !important;
+    border-bottom: 1px solid rgba(59, 60, 61, 1) !important;
+}
+.el-message-box.cnc .el-message-box__header:before{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content:" ";
+    background: url("../image/logo.png") no-repeat center center;
+    background-size: 50%;
+}
+.el-message-box.cnc .el-message-box__header .el-message-box__title{
+    width: auto;
+    height: 40px !important;
+    line-height: 39px !important;
+    color: #ffffff !important;
+    font-size: 12px !important;
+    display: inline-block;
+    margin-left: 30px;
+}
+.el-message-box.cnc .el-message-box__header .el-message-box__headerbtn{
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 45px !important;
+    top: 0 !important;
+    right: 0 !important;
+}
+.el-message-box.cnc .el-message-box__content{
+    font-size: 12px !important;
+    color: #999999 !important;
+    padding: 10px !important;
+}
+.el-message-box.cnc .el-message-box__content .el-icon{
+    font-size: 14px !important;
+}
+.el-message-box.cnc .el-message-box__content .el-message-box__message{
+    padding-left: 20px !important;
+}
+.el-message-box.cnc .el-message-box__btns{
+    padding: 0 10px !important;
+}
+.el-message-box.cnc .el-message-box__btns .el-button:not(.el-button--primary){
+    background-color: rgba(0, 0, 0, .2) !important;
+    border-color: rgba(0, 0, 0, .2) !important;
+    font-size: 12px !important;
+}
+.el-message-box.cnc .el-message-box__btns .el-button:not(.el-button--primary):hover{
+    color: #999999 !important;
+}
+.el-message-box.cnc .el-message-box__btns .el-button.el-button--primary{
+    background-color: #5e4eff !important;
+    border-color: #5e4eff !important;
+    font-size: 12px !important;
+}
+
+.el-slider.cnc .el-slider__runway{
+    background-color: rgba(0, 0, 0, .2);
+}
+.el-slider.cnc .el-slider__bar{
+    background-color: #5e4eff;
+}
+.el-slider.cnc .el-slider__button-wrapper{
+    width: 14px;
+    height: 14px;
+    top: -7px;
+}
+.el-slider.cnc .el-slider__button-wrapper .el-slider__button{
+    width: 14px;
+    height: 14px;
+    border-color: #5e4eff;
+}
+.el-slider.cnc .el-slider__input{
+    width: 80px;
+}
+.el-slider.cnc .el-slider__runway.show-input{
+    margin-right: 15px;
+}
+.el-slider.cnc .el-input-number .el-input .el-input__wrapper{
+    background-color: rgba(30, 31, 34, 1);
+    box-shadow: none;
+    border: 1px solid rgba(59, 60, 61, .9);
+}
+.el-slider.cnc .el-input-number .el-input .el-input__wrapper input{
+    color: #999999;
+}

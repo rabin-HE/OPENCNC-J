@@ -1,0 +1,24 @@
+{
+    "$schema": "https://wails.io/schemas/config.v2.json",
+    "name": "cnc",
+    "outputfilename": "cnc",
+    "build:dir": "release",
+    "wailsjsdir": "template/src/package",
+    "frontend:dir": "template",
+    "frontend:install": "yarn",
+    "frontend:build": "yarn build",
+    "frontend:dev:watcher": "yarn dev",
+    "frontend:dev:serverUrl": "auto",
+    "devServer": "localhost:34225",
+    "author": {
+        "name": "GEEKROS",
+        "email": "admin@wileho.com"
+    },
+    "info": {
+        "companyName": "GEEKROS",
+        "productName": "CNC",
+        "productVersion": "1.0.0",
+        "copyright": "Copyright © 2019-2022 GEEKROS All Rights Reserved",
+        "comments": "GEEKROS (https://www.geekros.com)"
+    }
+}
