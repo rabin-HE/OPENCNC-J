@@ -17,11 +17,11 @@
 安装[Linuxcnc](https://linuxcnc.org/)
 
 1. 下载官方安装包 - LinuxCNC 2.9.1[Raspberry Pi OS based on Debian 12 Bookworm](https://www.linuxcnc.org/iso/linuxcnc-2.9.1-bookworm-rpi4.img.xz)
-2. 制作SD卡系统 - 建议使用[树莓派官方](https://www.raspberrypi.com/software/https:/)的SD卡系统制作工具[Windows版本](https://downloads.raspberrypi.org/imager/imager_latest.exehttps:/) &[Ubuntu版本](https://downloads.raspberrypi.org/imager/imager_latest_amd64.debhttps:/)
+2. 制作SD卡系统 - 建议使用[树莓派官方](https://www.raspberrypi.com/software)的SD卡系统制作工具[Windows版本](https://downloads.raspberrypi.org/imager/imager_latest.exe) &[Ubuntu版本](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
 3. 插卡启动树莓派
 4. 配置Linuxcnc - [留白]
 
-安装依赖包 - [参考安装ethercat范例](https://forum.linuxcnc.org/ethercat/45336-ethercat-installation-from-repositories-how-to-step-by-stephttps:/), CIA402
+安装依赖包 - [参考安装ethercat范例](https://forum.linuxcnc.org/ethercat/45336-ethercat-installation-from-repositories-how-to-step-by-step), CIA402
 
 1. ethercat安装
    1. 打开terminal:`sudo apt install ethercat-master libethercat-dev linuxcnc-ethercat`
