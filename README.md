@@ -1,6 +1,6 @@
 ![](/Picture/machine.jpg)
 
-## **OPENCNC-J**
+## **OPENCNC-J**  [ENGLISH_README](/README-EN.md)
 
 * 简介
   * 这是一个基于Linuxcnc的开源整合项目, 目的为让电气工程师能更方便的使用Linuxcnc + ethercat与CIA402协议 + 树莓派(或X86 - Debian)的开发组合
