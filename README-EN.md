@@ -17,7 +17,7 @@
 Install [Linuxcnc](https://linuxcnc.org/)
 
 1. Download the official installation package - LinuxCNC 2.9.1[Raspberry Pi OS based on Debian 12 Bookworm](https://www.linuxcnc.org/iso/linuxcnc-2.9.1-bookworm-rpi4.img.xz)
-2. Create an SD card system - It is recommended to use the[official Raspberry Pi](https://www.raspberrypi.com/software/) SD card system creation tools for[Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe) &[Ubuntu](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
+2. Create an SD card system - It is recommended to use the [official Raspberry Pi](https://www.raspberrypi.com/software/) SD card system creation tools for[Windows](https://downloads.raspberrypi.org/imager/imager_latest.exe) &[Ubuntu](https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb)
 3. Insert the card to boot the Raspberry Pi
 4. Configure Linuxcnc - [To be filled in]
 
@@ -62,6 +62,7 @@ That completes the most challenging part 👍
 ## **Directory Structure**
 
 * CAD - Electrical schematic diagram in PDF format
+![](/Picture/CAD.png)
 * linuxcnc - Contains all the required configuration files
 
 ## **Project Procurement List**
