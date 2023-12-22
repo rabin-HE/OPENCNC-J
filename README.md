@@ -90,7 +90,7 @@
 
 * 感谢桂林广陆数字测控有限公司对此开源项目的支持
   * 天猫旗舰店 - 产品购买地址
-
+![](/Picture/guiLinGuangLu.jpg)
 
 * 感谢在开发过程中帮助过我的开发者们[Hakan](https://forum.linuxcnc.org/cb-profile/22448-hakan) &[rodw](https://forum.linuxcnc.org/cb-profile/rodw) &[garlicbread](https://forum.linuxcnc.org/cb-profile/garlicbread)
 * 项目引用
