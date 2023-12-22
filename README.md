@@ -59,7 +59,7 @@
 
 ## **目录构成**
 
-* OPENCNC-J.pdf - 电气原理图的pdf格式
+* CAD - 电气原理图
 * linuxcnc - 包含了所需的所有配置文件
 
 ## **项目采购清单**
@@ -89,12 +89,9 @@
 ## 特别感谢
 
 * 感谢桂林广陆数字测控有限公司对此开源项目的支持
-  * [留]
+  * 天猫旗舰店 - 产品购买地址
+
+
 * 感谢在开发过程中帮助过我的开发者们[Hakan](https://forum.linuxcnc.org/cb-profile/22448-hakan) &[rodw](https://forum.linuxcnc.org/cb-profile/rodw) &[garlicbread](https://forum.linuxcnc.org/cb-profile/garlicbread)
-
-## 写在最后
-
-* 一个开源项目能够长期存活需要的3个条件, 如果有一天这个项目死了, 那必定是缺少了其中之一
-  * 开源者长期的开发热情
-  * 开源项目的受关注度 - 感谢你的支持
-  * 开源项目能够维系的资金 - 感谢桂林广陆数字测控有限公司的支持
+* 项目引用
+  * [YouTube - Ethercat + linuxcnc + Raspberry pi?](https://www.youtube.com/watch?v=NQ-HnrusGJo&t=16s)
