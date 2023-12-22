@@ -1,3 +1,5 @@
+![](/Picture/machine.jpg)
+
 ## **OPENCNC-J**
 
 * 简介
@@ -89,9 +91,10 @@
 ## 特别感谢
 
 * 感谢桂林广陆数字测控有限公司对此开源项目的支持
-  * 天猫旗舰店 - 产品购买地址
-![](/Picture/guilinguanglu.jpg)
 
+  * 天猫旗舰店 - [产品购买地址](https://guanglujj.tmall.com/shop/view_shop.htm?spm=a21n57.1.0.0.396d523cnfFegq&appUid=RAzN8HWJMBXJctTqz11nosKY98Wm2AwEqKJEpqoPs9YQHKEVNDc)
+    ![](/Picture/guilinguanglu.png)
 * 感谢在开发过程中帮助过我的开发者们[Hakan](https://forum.linuxcnc.org/cb-profile/22448-hakan) &[rodw](https://forum.linuxcnc.org/cb-profile/rodw) &[garlicbread](https://forum.linuxcnc.org/cb-profile/garlicbread)
 * 项目引用
+
   * [YouTube - Ethercat + linuxcnc + Raspberry pi?](https://www.youtube.com/watch?v=NQ-HnrusGJo&t=16s)
