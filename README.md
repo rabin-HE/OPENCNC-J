@@ -1,6 +1,6 @@
 ![](/Picture/machine.jpg)
 
-## **OPENCNC-J**  [ENGLISH_README](/README-EN.md)
+## **OPENCNC-J**  [📖ENGLISH_README](/README-EN.md)
 
 * 简介
   * 这是一个基于Linuxcnc的开源整合项目, 目的为让电气工程师能更方便的使用Linuxcnc + ethercat与CIA402协议 + 树莓派(或X86 - Debian)的开发组合
@@ -95,7 +95,7 @@
 
   * 天猫旗舰店 - [产品购买地址](https://guanglujj.tmall.com/shop/view_shop.htm?spm=a21n57.1.0.0.396d523cnfFegq&appUid=RAzN8HWJMBXJctTqz11nosKY98Wm2AwEqKJEpqoPs9YQHKEVNDc)
     ![](/Picture/guilinguanglu.png)
-* 感谢在开发过程中帮助过我的开发者们[Hakan](https://forum.linuxcnc.org/cb-profile/22448-hakan) &[rodw](https://forum.linuxcnc.org/cb-profile/rodw) &[garlicbread](https://forum.linuxcnc.org/cb-profile/garlicbread)
+* 感谢在开发过程中帮助过我的开发者们[Hakan](https://forum.linuxcnc.org/cb-profile/22448-hakan) & [rodw](https://forum.linuxcnc.org/cb-profile/rodw) & [garlicbread](https://forum.linuxcnc.org/cb-profile/garlicbread)
 * 项目引用
 
   * [YouTube - Ethercat + linuxcnc + Raspberry pi?](https://www.youtube.com/watch?v=NQ-HnrusGJo&t=16s)

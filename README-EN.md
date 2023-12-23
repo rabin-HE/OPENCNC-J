@@ -1,6 +1,6 @@
 ![](/Picture/machine.jpg)
 
-## **OPENCNC-J**  [中文README](/README.MD)
+## **OPENCNC-J**  [📖中文README](/README.md)
 
 * Introduction
   * This is an open-source integration project based on Linuxcnc. Its aim is to facilitate electrical engineers in using a combination of Linuxcnc + EtherCAT with CIA402 protocol + Raspberry Pi (or X86 - Debian).
@@ -94,6 +94,6 @@ Disclaimer: There is no commercial relationship with the procurement links, plea
 * Thanks to Guilin Guanglu Digital Measurement and Control Co., Ltd. for their support of this open-source project
   * Tmall Flagship Store -[Product Purchase Address](https://guanglujj.tmall.com/shop/view_shop.htm?spm=a21n57.1.0.0.396d523cnfFegq&appUid=RAzN8HWJMBXJctTqz11nosKY98Wm2AwEqKJEpqoPs9YQHKEVNDc)
   ![](/Picture/guilinguanglu.png)
-* Thanks to the developers who helped me during the development process[Hakan](https://forum.linuxcnc.org/cb-profile/22448-hakan),[rodw](https://forum.linuxcnc.org/cb-profile/rodw), and[garlicbread](https://forum.linuxcnc.org/cb-profile/garlicbread)
+* Thanks to the developers who helped me during the development process [Hakan](https://forum.linuxcnc.org/cb-profile/22448-hakan),[rodw](https://forum.linuxcnc.org/cb-profile/rodw), and [garlicbread](https://forum.linuxcnc.org/cb-profile/garlicbread)
 * Project References
   * [YouTube - Ethercat + linuxcnc + Raspberry pi?](https://www.youtube.com/watch?v=NQ-HnrusGJo&t=16s)
