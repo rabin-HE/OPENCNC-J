@@ -27,8 +27,24 @@
    1. 打开terminal:`sudo apt install ethercat-master libethercat-dev linuxcnc-ethercat`
    2. 如果安装失败,请参考范例
           <details>
-            <summary>点击展开查看详情</summary>
-            这里是你想要隐藏的内容，只有在点击上面的“点击展开查看详情”后才会显示。
+            <summary>报错后的安装方法</summary>
+            <p>安装工具`sudo apt install geany curl git grub-customizer`</p>
+            <p>获取GPG KEY`sudo mkdir -p /usr/local/share/keyrings/`</p>
+            <p>`wget -O- https://build.opensuse.org/projects/science:EtherLab/signing_keys/download?kind=gpg | gpg --dearmor | sudo dd of=/usr/local/share/keyrings/science_EtherLab.gpg`</p>
+            <p>创建ethercat源文件`sudo geany /etc/apt/sources.list.d/science_EtherLab.sources`</p>
+            <p>粘贴入下面代码</p>
+            <p>`Types: deb`</p>
+            <p>`Signed-By: /usr/local/share/keyrings/science_EtherLab.gpg`</p>
+            <p>`Suites: ./`</p>
+            <p>`URIs: http://download.opensuse.org/repositories/science:/EtherLab/Debian_12/`</p>
+            <p>terminal输入`sudo apt update`</p>
+            <p>安装ethercat master`sudo apt install -y linux-headers-$(uname -r)`</p>
+            <p>`sudo apt install ethercat-master libethercat-dev`</p>
+            <p>安装库和驱动`curl -s https://packagecloud.io/install/repositories/rodw-au/rodw-au/script.deb.sh | sudo bash`</p>
+            <p>`sudo apt install linuxcnc-ethercat=0.9.4`</p>
+            <p>`sudo apt update`</p>
+            <p></p>
+            <p></p>
           </details>
    3. 查看网口的MAC地址:`ip a`
       1. 记录MAC地址例如:`xx:aa:yy:zz:bb:cc`
