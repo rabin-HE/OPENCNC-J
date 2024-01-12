@@ -26,6 +26,10 @@
 1. ethercat安装
    1. 打开terminal:`sudo apt install ethercat-master libethercat-dev linuxcnc-ethercat`
    2. 如果安装失败,请参考范例
+          <details>
+            <summary>点击展开查看详情</summary>
+            这里是你想要隐藏的内容，只有在点击上面的“点击展开查看详情”后才会显示。
+          </details>
    3. 查看网口的MAC地址:`ip a`
       1. 记录MAC地址例如:`xx:aa:yy:zz:bb:cc`
    4. 输入(配置)到ethercat.conf文件
